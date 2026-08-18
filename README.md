@@ -433,10 +433,10 @@ END
 
 ## 📦 Installation
 
-### Prerequisites
-# Windows 7/8/10/11
-# Python 3.8 or higher
-# Administrator privileges (recommended)
+## Prerequisites
+### Windows 7/8/10/11
+### Python 3.8 or higher
+### Administrator privileges (recommended)
 
 ---
 
