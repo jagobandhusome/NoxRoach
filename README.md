@@ -387,6 +387,7 @@ END
 
 
 
+
 ---
 
 ## ✨ Features
@@ -438,7 +439,9 @@ END
 # Python 3.8 or higher
 # Administrator privileges (recommended)
 
-Quick Install
+
+
+### Quick Install
 
 # Clone repository
 git clone https://github.com/yourusername/TrojanRoach.git
