@@ -439,7 +439,7 @@ END
 # Python 3.8 or higher
 # Administrator privileges (recommended)
 
-
+---
 
 ### Quick Install
 
