@@ -1,4 +1,4 @@
-# 🪳 TrojanRoach
+# 🪳 NoxRoach
 
 **Advanced Windows System Management & Security Analysis Framework**
 
