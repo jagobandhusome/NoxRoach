@@ -1,0 +1,13 @@
+pywin32 
+paramiko 
+cryptography 
+matplotlib 
+seaborn 
+pandas 
+plotly 
+flask 
+requests 
+psutil 
+pillow 
+python-telegram-bot 
+websockets 

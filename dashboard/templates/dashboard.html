@@ -270,9 +270,9 @@
                     const keystrokes = data.keystrokes.slice(-20).reverse();
                     keystrokeList.innerHTML = keystrokes.map(k => `
                         <div class="entry">
-                            <span class="time">${k.timestamp ? k.timestamp.split('T')[1].split('.')[0] : ''}</span>
-                            <span class="key">${k.key || ''}</span>
-                            <span class="risk low">Low</span>
+                            <span class="time">${k.timestamp ? k.timestamp.split('T')[1] ? k.timestamp.split('T')[1].split('.')[0] : k.timestamp : ''}</span>
+                            <span class="key" style="font-weight: bold; color: #00d4ff;">${k.key || ''}</span>
+                            <span class="risk ${k.risk ? k.risk.toLowerCase() : 'low'}">${k.risk || 'Low'}</span>
                         </div>
                     `).join('');
                     
